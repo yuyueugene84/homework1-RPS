@@ -39,3 +39,4 @@ else
 	puts "Game is draw"	
 	end
 end
+
