@@ -1,3 +1,49 @@
+user_input = gets.chomp.upcase
+computer_input = rand(1..3)
+computer_choice = num_to_choice(computer_input)
+
+decide(user_input, computer_input)
+
+def decide(user_input, computer_input)
+	if user_input == 'S'
+		if computer_choice == 'R'
+		puts "you lose"
+		end
+		if computer_choice == 'S'
+		puts "you have tie"
+		end
+	elsif user_input == 'P'
+	
+	end
+
+	elsif user_input == 'R'
+
+	end
+end
+
+def num_to_choise(num)
+	if num == 1
+		return 'S'
+	elsif num == 2
+		return 'R'
+	elsif num == 3
+		return 'P'
+		
+end	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
 puts "wellcome Rock Paper Scissor Game!"	
 puts "1) Rock, 2) Paper, 3) Scissor"
 
@@ -38,4 +84,3 @@ else
 	puts "Game is draw"	
 	end
 end
-
