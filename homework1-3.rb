@@ -28,3 +28,4 @@ array
 
 array.delete(num)
 
+# work
