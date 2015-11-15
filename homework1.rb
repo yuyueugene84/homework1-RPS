@@ -9,7 +9,7 @@ end while ![1,2,3].include?(first)
 begin
 puts "please enter second R, P, S :"
 second = gets.to_i
-end while ![1,2,3].include?(first,second)
+end while ![1,2,3].include?(second)
 
 if first == 1
 	if second == 1 
